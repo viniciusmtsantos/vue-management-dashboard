@@ -45,7 +45,7 @@
               <!-- <i :class="[item.icon, { 'text-primary-500': item.to == route.path }]" /> -->
               <span>{{ item.label }}</span>
               <span v-if="item.badge"
-                class="ml-auto flex items-center px-2 py-0.5 mx-2 text-sm rounded-full text-red-800 bg-red-100 ">
+                class="ml-auto flex items-center px-2 py-0.5 mx-2 text-sm rounded-full text-blue-800 bg-blue-100 ">
                 {{ item.badge }}
               </span>
             </router-link>
@@ -100,6 +100,15 @@ const items: any = ref([
     ],
   },
   {
+    label: 'Mensagens',
+    // icon: 'pi pi-inbox mr-4',
+    icon: [
+      'M8.707 7.293a1 1 0 0 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0l2-2a1 1 0 0 0-1.414-1.414L11 7.586V3a1 1 0 1 0-2 0v4.586l-.293-.293Z',
+      'M3 5a2 2 0 0 1 2-2h1a1 1 0 0 1 0 2H5v7h2l1 2h4l1-2h2V5h-1a1 1 0 1 1 0-2h1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5Z'],
+    to: '/messages',
+    badge: 8,
+  },
+  {
     label: 'Relatórios',
     // icon: 'pi pi-file mr-2',
     icon: ['M7.2 2.4a2.4 2.4 0 0 0-2.4 2.4v14.4a2.4 2.4 0 0 0 2.4 2.4h9.6a2.4 2.4 0 0 0 2.4-2.4V8.897a2.4 2.4 0 0 0-.703-1.697L14.4 3.103a2.4 2.4 0 0 0-1.697-.703H7.2Zm2.4 12a1.2 1.2 0 0 0-2.4 0V18a1.2 1.2 0 0 0 2.4 0v-3.6Zm2.4-3.6a1.2 1.2 0 0 1 1.2 1.2v6a1.2 1.2 0 1 1-2.4 0v-6a1.2 1.2 0 0 1 1.2-1.2Zm4.8-1.2a1.2 1.2 0 1 0-2.4 0V18a1.2 1.2 0 1 0 2.4 0V9.6Z'],
@@ -114,16 +123,6 @@ const items: any = ref([
         to: '/fail-reports',
       },
     ],
-  },
-
-  {
-    label: 'Mensagens',
-    // icon: 'pi pi-inbox mr-4',
-    icon: [
-      'M8.707 7.293a1 1 0 0 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0l2-2a1 1 0 0 0-1.414-1.414L11 7.586V3a1 1 0 1 0-2 0v4.586l-.293-.293Z',
-      'M3 5a2 2 0 0 1 2-2h1a1 1 0 0 1 0 2H5v7h2l1 2h4l1-2h2V5h-1a1 1 0 1 1 0-2h1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5Z'],
-    to: '/messages',
-    badge: 2,
   },
 ])
 </script>

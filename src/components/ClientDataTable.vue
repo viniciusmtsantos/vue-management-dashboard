@@ -10,10 +10,10 @@
             <div class="flex justify-between items-center mb-3">
               <div>
                 <div class="text-xl font-bold  text-surface-950">
-                  Movimentações
+                  Transações
                 </div>
                 <div class=" text-base font-normal text-surface-500">
-                  Lista das últimas movimentações
+                  Tabela das últimas transações
                 </div>
               </div>
               <div class="justify-end">

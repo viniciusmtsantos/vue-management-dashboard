@@ -3,8 +3,8 @@
     <!-- Equity history chart -->
     <div class=" p-5 bg-white rounded-2xl shadow">
       <div class="text-xl font-bold">
-        Evolução de Patrimônio
-        <i v-tooltip="'Evolução de Patrimônio Sob Custódia'" class="pi pi-info-circle text-surface-400 ml-2"></i>
+        Crescimento de Ativos
+        <i v-tooltip="'Evolução de Patrimônio'" class="pi pi-info-circle text-surface-400 ml-2"></i>
       </div>
       <div class="flex items-center justify-center pt-4">
         <Chart type="line" :data="setChartEquityHistoryData()" :options="setChartOptions()" class="w-11/12 h-96" />
@@ -27,7 +27,7 @@ const setChartEquityHistoryData = () => {
     datasets: [
 
       {
-        label: 'Patrimônio',
+        label: 'Ativo',
         data: props.equityHistoryValues,
         fill: true,
         borderColor: 'rgb(100, 100, 242)',
