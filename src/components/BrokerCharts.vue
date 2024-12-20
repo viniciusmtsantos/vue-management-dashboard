@@ -3,17 +3,6 @@
     <!-- Broker charts -->
     <div class=" p-5 bg-white rounded-2xl shadow">
       <div class="text-xl font-bold">
-        Distribuição de Ativos por Parceiro
-        <i v-tooltip="'Patrimônio por Parceiro'" class="pi pi-info-circle text-surface-400 ml-2 size-1"></i>
-      </div>
-      <div class="flex items-center justify-between pt-8">
-        <div class="card w-full h-full">
-          <Chart type="bar" :data="setChartPatrimoniesData()" :options="setChartOptions()" class="h-30rem h-64" />
-        </div>
-      </div>
-    </div>
-    <div class=" p-5 bg-white rounded-2xl shadow">
-      <div class="text-xl font-bold">
         Distribuição de Carteiras por Parceiro
         <i v-tooltip="'Carteiras por Corretora'" class="pi pi-info-circle text-surface-400 ml-2"></i>
       </div>
@@ -21,6 +10,17 @@
 
         <div class="card w-full h-52">
           <Chart type="bar" :data="setChartClientCountData()" :options="setChartOptions()" class="h-30rem h-64" />
+        </div>
+      </div>
+    </div>
+    <div class=" p-5 bg-white rounded-2xl shadow">
+      <div class="text-xl font-bold">
+        Distribuição de Ativos por Parceiro
+        <i v-tooltip="'Patrimônio por Parceiro'" class="pi pi-info-circle text-surface-400 ml-2"></i>
+      </div>
+      <div class="flex items-center justify-between pt-8">
+        <div class="card w-full h-full">
+          <Chart type="bar" :data="setChartPatrimoniesData()" :options="setChartOptions()" class="h-30rem h-64" />
         </div>
       </div>
     </div>

@@ -32,7 +32,7 @@ const clientsSumary = ref([{}])
 const fetchData = async () => {
   isLoading.value = true
   try {
-    const response = await fetch('https://run.mocky.io/v3/4dbc7153-c982-493d-892e-1a812a0978f8');
+    const response = await fetch('https://run.mocky.io/v3/67ecbabf-d4a1-4e0f-865b-203cabf4a3f5');
     const data = await response.json();
 
     // Atualiza as refs com base nos dados recebidos da API

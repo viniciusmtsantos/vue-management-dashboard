@@ -9,7 +9,7 @@
           {{ abbrNum(numberOfClients, 1) }}
         </div>
         <span class="flex items-center px-2 py-0.5 text-sm rounded-full text-green-600 bg-green-100">
-          +2%
+          +8%
         </span>
       </div>
     </div>
@@ -20,8 +20,8 @@
         <div class="text-base font-semibold">
           {{ abbrNum(totalEquality, 1) }}
         </div>
-        <span class="flex items-center px-2 py-0.5 text-sm rounded-full text-green-600 bg-green-100">
-          +8%
+        <span class="flex items-center px-2 py-0.5 text-sm rounded-full text-red-600 bg-red-100">
+          -3%
         </span>
       </div>
     </div>
@@ -32,8 +32,8 @@
         <div class="text-base font-semibold">
           {{ abbrNum(averageEquality, 1) }}
         </div>
-        <span class="flex items-center px-2 py-0.5 text-sm rounded-full text-red-600 bg-red-100">
-          -3%
+        <span class="flex items-center px-2 py-0.5 text-sm rounded-full text-green-600 bg-green-100">
+          +6%
         </span>
       </div>
     </div>

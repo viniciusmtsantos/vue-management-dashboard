@@ -1,13 +1,13 @@
 {
   "data": {
     "advisor_summary": {
-      "client_count": 30,
-      "total_equity": 673137.1036342538,
-      "average_equity": 22437.903454475127,
+      "client_count": 83,
+      "total_equity": 374248.1036342538,
+      "average_equity": 4183.1325301223,
       "equity_history": [
         {
           "date": "2024-01-01",
-          "value": 517168.27142020856
+          "value": 591457.3240283114
         },
         {
           "date": "2024-01-02",
@@ -15,7 +15,7 @@
         },
         {
           "date": "2024-01-03",
-          "value": 557099.2239162349
+          "value": 659172.8800382039
         },
         {
           "date": "2024-01-04",
@@ -23,7 +23,7 @@
         },
         {
           "date": "2024-01-05",
-          "value": 591457.3240283114
+          "value": 517168.27142020856
         },
         {
           "date": "2024-01-06",
@@ -35,7 +35,7 @@
         },
         {
           "date": "2024-01-08",
-          "value": 659172.8800382039
+          "value": 557099.2239162349
         },
         {
           "date": "2024-01-09",
@@ -60,80 +60,12 @@
         {
           "date": "2024-01-14",
           "value": 692019.6310929072
-        },
-        {
-          "date": "2024-01-15",
-          "value": 660278.2600724506
-        },
-        {
-          "date": "2024-01-16",
-          "value": 613808.2848354236
-        },
-        {
-          "date": "2024-01-17",
-          "value": 566144.5325065982
-        },
-        {
-          "date": "2024-01-18",
-          "value": 594892.2957325703
-        },
-        {
-          "date": "2024-01-19",
-          "value": 582597.7922660877
-        },
-        {
-          "date": "2024-01-20",
-          "value": 581988.5517158898
-        },
-        {
-          "date": "2024-01-21",
-          "value": 581126.3474347249
-        },
-        {
-          "date": "2024-01-22",
-          "value": 610837.3611319606
-        },
-        {
-          "date": "2024-01-23",
-          "value": 626555.8061076588
-        },
-        {
-          "date": "2024-01-24",
-          "value": 641318.5564647012
-        },
-        {
-          "date": "2024-01-25",
-          "value": 649856.6292741565
-        },
-        {
-          "date": "2024-01-26",
-          "value": 627981.0741194963
-        },
-        {
-          "date": "2024-01-27",
-          "value": 637454.7494100971
-        },
-        {
-          "date": "2024-01-28",
-          "value": 608256.7873512647
-        },
-        {
-          "date": "2024-01-29",
-          "value": 640863.91269654
-        },
-        {
-          "date": "2024-01-30",
-          "value": 631539.9300359425
-        },
-        {
-          "date": "2024-01-31",
-          "value": 673137.1036342538
         }
       ]
     },
     "clients_summary": [
       {
-        "name": "Cecília da Cruz",
+        "name": "Vinicius Santos",
         "broker": "C",
         "latest_transactions": [
           {
@@ -154,7 +86,7 @@
         ]
       },
       {
-        "name": "Dr. Augusto Monteiro",
+        "name": "Ludmilla Reis",
         "broker": "A",
         "latest_transactions": [
           {
@@ -180,7 +112,7 @@
         ]
       },
       {
-        "name": "Olivia Dias",
+        "name": "Lucia Oliveira",
         "broker": "C",
         "latest_transactions": [
           {
@@ -206,12 +138,12 @@
         ]
       },
       {
-        "name": "Rebeca da Conceição",
+        "name": "Lourdes Batista",
         "broker": "C",
         "latest_transactions": []
       },
       {
-        "name": "Renan Teixeira",
+        "name": "Jonas Madureira",
         "broker": "B",
         "latest_transactions": [
           {
@@ -232,7 +164,7 @@
         ]
       },
       {
-        "name": "Yasmin Aragão",
+        "name": "Yago Martins",
         "broker": "B",
         "latest_transactions": [
           {
@@ -258,7 +190,7 @@
         ]
       },
       {
-        "name": "Júlia Azevedo",
+        "name": "Micael Souza",
         "broker": "B",
         "latest_transactions": [
           {
@@ -284,7 +216,7 @@
         ]
       },
       {
-        "name": "Vitória Vieira",
+        "name": "Alan Luiz Santos",
         "broker": "C",
         "latest_transactions": [
           {
@@ -305,7 +237,7 @@
         ]
       },
       {
-        "name": "Isabelly Sales",
+        "name": "Isabel Avenedo",
         "broker": "B",
         "latest_transactions": [
           {
@@ -321,18 +253,7 @@
         ]
       },
       {
-        "name": "Arthur Pinto",
-        "broker": "A",
-        "latest_transactions": [
-          {
-            "date": "2024-01-12",
-            "value": 2610,
-            "type": "Resgate"
-          }
-        ]
-      },
-      {
-        "name": "Dr. Gustavo Caldeira",
+        "name": "Pedro Lato",
         "broker": "B",
         "latest_transactions": [
           {
@@ -343,7 +264,7 @@
         ]
       },
       {
-        "name": "Sr. João Vitor Viana",
+        "name": "Victor Viana",
         "broker": "C",
         "latest_transactions": [
           {
@@ -359,7 +280,7 @@
         ]
       },
       {
-        "name": "Rafaela Silveira",
+        "name": "Gabriel Silveira",
         "broker": "B",
         "latest_transactions": [
           {
@@ -375,7 +296,7 @@
         ]
       },
       {
-        "name": "Vitor Hugo Fernandes",
+        "name": "Hugo Fernandes",
         "broker": "C",
         "latest_transactions": [
           {
@@ -406,7 +327,7 @@
         ]
       },
       {
-        "name": "Ana Silveira",
+        "name": "Ana Clara",
         "broker": "B",
         "latest_transactions": []
       },
@@ -423,32 +344,6 @@
             "date": "2024-01-31",
             "value": 6093,
             "type": "Resgate"
-          }
-        ]
-      },
-      {
-        "name": "Nina Martins",
-        "broker": "C",
-        "latest_transactions": [
-          {
-            "date": "2024-01-25",
-            "value": 3588,
-            "type": "Resgate"
-          },
-          {
-            "date": "2024-01-07",
-            "value": 9019,
-            "type": "Resgate"
-          },
-          {
-            "date": "2024-01-18",
-            "value": 8349,
-            "type": "Resgate"
-          },
-          {
-            "date": "2024-01-03",
-            "value": 3406,
-            "type": "Aporte"
           }
         ]
       },
@@ -484,7 +379,7 @@
         ]
       },
       {
-        "name": "Elisa Jesus",
+        "name": "Pedro Silvano",
         "broker": "A",
         "latest_transactions": [
           {
@@ -505,7 +400,7 @@
         ]
       },
       {
-        "name": "Luiza Cardoso",
+        "name": "João Alexandre Cardoso",
         "broker": "B",
         "latest_transactions": [
           {
@@ -521,7 +416,7 @@
         ]
       },
       {
-        "name": "Ana Cavalcanti",
+        "name": "Guilherme Kerr",
         "broker": "B",
         "latest_transactions": [
           {
@@ -552,7 +447,7 @@
         ]
       },
       {
-        "name": "Eloah Ribeiro",
+        "name": "Elias Cordeiro",
         "broker": "C",
         "latest_transactions": [
           {
@@ -583,59 +478,7 @@
         ]
       },
       {
-        "name": "Sr. Nathan Gomes",
-        "broker": "A",
-        "latest_transactions": [
-          {
-            "date": "2024-01-03",
-            "value": 9362,
-            "type": "Aporte"
-          },
-          {
-            "date": "2024-01-03",
-            "value": 2390,
-            "type": "Resgate"
-          },
-          {
-            "date": "2024-01-04",
-            "value": 3851,
-            "type": "Resgate"
-          }
-        ]
-      },
-      {
-        "name": "Ana Clara Moraes",
-        "broker": "B",
-        "latest_transactions": [
-          {
-            "date": "2024-01-17",
-            "value": 4830,
-            "type": "Resgate"
-          },
-          {
-            "date": "2024-01-01",
-            "value": 2359,
-            "type": "Aporte"
-          },
-          {
-            "date": "2024-01-21",
-            "value": 7133,
-            "type": "Resgate"
-          },
-          {
-            "date": "2024-01-11",
-            "value": 9845,
-            "type": "Resgate"
-          },
-          {
-            "date": "2024-01-23",
-            "value": 2148,
-            "type": "Aporte"
-          }
-        ]
-      },
-      {
-        "name": "Guilherme Cunha",
+        "name": "Guilherme De Carvalho",
         "broker": "B",
         "latest_transactions": [
           {
@@ -682,7 +525,7 @@
         ]
       },
       {
-        "name": "Ryan Teixeira",
+        "name": "Heber Campos da Rocha",
         "broker": "A",
         "latest_transactions": [
           {
@@ -704,38 +547,6 @@
           {
             "date": "2024-01-31",
             "value": 5052,
-            "type": "Aporte"
-          }
-        ]
-      },
-      {
-        "name": "Vitor Hugo Costa",
-        "broker": "C",
-        "latest_transactions": [
-          {
-            "date": "2024-01-22",
-            "value": 2181,
-            "type": "Aporte"
-          }
-        ]
-      },
-      {
-        "name": "Maria Alice Moraes",
-        "broker": "A",
-        "latest_transactions": [
-          {
-            "date": "2024-01-11",
-            "value": 2787,
-            "type": "Aporte"
-          },
-          {
-            "date": "2024-01-22",
-            "value": 8169,
-            "type": "Aporte"
-          },
-          {
-            "date": "2024-01-26",
-            "value": 6893,
             "type": "Aporte"
           }
         ]
